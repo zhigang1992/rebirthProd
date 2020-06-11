@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.canvas {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: contain;
+  object-position: center;
+}
+
+audio {
+  position: absolute;
+  display: none;
+}
+
+.play-button {
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  width: 100px;
+  height: 100px;
+  margin-left: -50px;
+}
+
+.record-button {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 120px;
+  height: 50px;
+  margin-left: -60px;
+  margin-top: 20px;
+  font-size: 17px;
+  border: none;
+  border-radius: 10px;
+  background: #ebecf0;
+}
